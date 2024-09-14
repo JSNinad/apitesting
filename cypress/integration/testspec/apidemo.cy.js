@@ -36,8 +36,8 @@
 
 describe('collection of test case', () => {
     const baseURL = "https://api.trello.com";
-    const apiKey = "";
-    const apiToken = "
+    const apiKey = "97d79732260cc897404d4f1386c68520";
+    const apiToken = "ATTA1af9e23c88febf0554013d7d90362b0e4a03a1c3589bb143e58a9dfc563aa5e4E57D522A";
     it('Create a Board', () => {
         cy.request({
             method:"POST",
